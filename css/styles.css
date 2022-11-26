@@ -1,0 +1,155 @@
+:root {
+    --colorBaseBlanco: #ffffff;
+    --colorBaseNegro: #000000;
+    --colorBaseNegro: #c4c4c4;
+    --colorFondo: #306eff;
+    --colorFondoClaro: #7aa2ff;
+    --colorFondoLight: #ccdbfe;
+    --colorContraste: #ff6e30;
+    --colorContrasteClaro: #ffa27a;
+    --colorContrasteLight: #fedbcc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Globales */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--colorPrimario);
+    text-align: center;
+    color: var(--colorOscuro);
+}
+
+h1, h2, h3 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+/*Utilidades*/
+.button {
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    font-weight: bold;
+    height: 50px;
+    font-size: 1.6rem;
+}
+
+.button__action {
+    background-color: var(--colorContraste);
+    color: var(--colorBaseBlanco);
+}
+
+.button__primario {
+    background-color: var(--colorContrasteClaro);
+    color: var(--colorBaseBlanco);
+}
+
+.button__primario--invertido {
+    background-color: var(--colorBaseBlanco);
+    color: var(--colorContrasteClaro);
+}
+
+.button__secundario {
+    background-color: var(--colorFondo);
+    color: var(--colorBaseBlanco);
+}
+
+.button__secundario--invertido {
+    background-color: var(--colorBaseBlanco);
+    color: var(--colorFondo);
+}
+
+
+/*Header*/
+.header {
+    background-color: var(--colorFondoClaro);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 9.6rem;
+}
+
+.nav__menu ul{
+    display: flex;
+}
+
+.nav__menu li{
+    list-style: none;
+    padding: 0 1.2rem;
+}
+
+.nav__menu a{
+    text-decoration: none;
+}
+
+
+
+/*Footer*/
+.footer {
+    background-color: var(--colorFondoClaro);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+    padding: 0 9.6rem;
+    margin-top: 4rem;
+}
+
+.footer__element {
+    text-align: left;
+}
+
+.footer__element a {
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: var(--colorFondoClaro);
+}
+
+.copyright p{
+    margin: 0;
+    padding: 1.5rem 0;
+}
+
+.rrss{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.rrss img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem 1rem 0;
+}
+
+.footer__element--title {
+    font-size: 1.2rem;
+}
+
+.footer__element--description {
+    
+}
+
