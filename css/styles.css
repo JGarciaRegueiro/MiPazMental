@@ -288,6 +288,10 @@ fieldset {
     padding:4rem;
 } 
 
+.bono{
+    padding: 4.8rem;
+}
+
 /*Página 404*/
 .contenedor-404{
     display:flex;
