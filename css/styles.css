@@ -298,18 +298,23 @@ fieldset {
 /*Página 404*/
 .contenedor-404{
     display:flex;
-    justify-content: space-around;
-    padding: 16rem;
+    padding: 9.6rem;
 }
 
 .contenedor-mensaje404{
     margin-top:16rem;
+    margin-left:2.4rem;
     text-align: right;
 }
 
 .mensaje-404{
     margin-bottom: 4rem;
 }
+
+.contenedor-imagen-robot {
+    margin-right: 2.4rem;
+   }
+
 
 /*Footer*/
 .footer {
