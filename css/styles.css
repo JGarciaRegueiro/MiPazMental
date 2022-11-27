@@ -36,7 +36,8 @@ h2 {
 }
 
 h3 {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
+    font-family: 'PT', serif;
 }
 
 p {
@@ -281,6 +282,23 @@ fieldset {
 .bono-ofertas {
     padding:4rem;
 } 
+
+/*Página 404*/
+.contenedor-404{
+    display:flex;
+    justify-content: space-around;
+    padding: 16rem;
+}
+
+.contenedor-mensaje404{
+    margin-top:16rem;
+    text-align: right;
+}
+
+.mensaje-404{
+    margin-bottom: 4rem;
+}
+
 /*Footer*/
 .footer {
     background-color: var(--colorFondoClaro);
