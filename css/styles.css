@@ -259,9 +259,24 @@ fieldset {
     width: 15px;
 }
 
+/*Tarjetas*/
+.contenedor-tarjetas{
+    display:flex;
+    justify-content: space-around;
+    padding: 8rem;
+    align-items: center
+    justify-content: space-between;
+}
 
+.contenedor-imagen {
+    display:inline-block;
+    position:relative;
+}
 
-
+.contenedor-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+   }
 /*Footer*/
 .footer {
     background-color: var(--colorFondoClaro);
