@@ -363,3 +363,12 @@ fieldset {
     font-size: 1.2rem;
 }
 
+.contenedor_tarjeta-terapias{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.img_terapias{
+width:383px;
+height:322px;
+}
