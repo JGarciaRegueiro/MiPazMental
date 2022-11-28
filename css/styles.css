@@ -40,7 +40,7 @@ h3 {
 }
 
 .version2-h3{
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     font-family: 'PT', serif;
 
 }
@@ -299,23 +299,29 @@ fieldset {
 .contenedor-404{
     display:flex;
     padding: 9.6rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .contenedor-mensaje404{
-    margin-top:16rem;
-    margin-left:2.4rem;
+    margin-top: 8rem;
     text-align: right;
+    padding:1.6rem;
 }
 
 .mensaje-404{
     margin-bottom: 4rem;
 }
 
-.contenedor-imagen-robot {
-    margin-right: 2.4rem;
+.contenedor-imagen img {
+    width:100%;
+    height:100%;
+    
    }
 
-
+.tamaño-letra{
+    font-size: 2.4rem;
+   }
 /*Footer*/
 .footer {
     background-color: var(--colorFondoClaro);
