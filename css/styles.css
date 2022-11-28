@@ -369,12 +369,20 @@ fieldset {
     font-size: 1.2rem;
 }
 
-.contenedor_tarjeta-terapias{
+.contenedor_tarjetas-terapias{
  display: flex;
  flex-wrap: wrap;
+ margin: 8rem;
+ justify-content: space-evenly;
 }
 
 .img_terapias{
 width:383px;
 height:322px;
+transition:box-shadow 0.5s ease 0s;
+box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.3);
+}
+
+.img_terapias:hover{
+    box-shadow:6px 6px 4px 4px rgba(0,0,0,0.3); ;
 }
