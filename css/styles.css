@@ -378,12 +378,25 @@ fieldset {
 }
 /*Tarjetas terapias*/
 .contenedor_tarjetas-terapias{
- display: flex;
-flex-wrap: wrap;
- margin: 2rem;
- justify-content: space-evenly;
- padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 8rem;
 }
+
+@media (min-width : 1024px) {
+    .contenedor_tarjetas-terapias {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+    }
+}
+
+
+
+.tarjeta-terapia {
+    margin-bottom: 11.2rem;
+}
+
 .img_terapias{
 width: 300px;
 height: 300px;
@@ -392,16 +405,28 @@ border: 1px solid rgba(0, 0, 0, 0.5);
 
 /*Paginación terapias*/
 .paginacion{
-    margin-top: 40px;
     display: flex;
-    position: relative;
-    overflow: hidden;
-    align-items: center;
     justify-content: center;
 }
-.paginacion a{
+
+.paginacion__seleccionado{
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.4rem;
+    background-color: var(--colorFondoClaro);
+    padding: 1.5rem 2rem;
+    border:solid 1px var(--colorBaseNegro);
+    text-align: center;
+    color:var(--colorBaseBlanco);
+    text-decoration: none;
+}
+
+.paginacion__secundario{
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.4rem;
     background-color: var(--colorBaseBlanco);
-    padding: 10px 20px;
+    padding: 1.5rem 2rem;
     border:solid 1px var(--colorBaseNegro);
     text-align: center;
     color:var(--colorBaseNegro);
