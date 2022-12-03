@@ -326,11 +326,19 @@ fieldset {
 .footer {
     background-color: var(--colorFondoClaro);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: start;
+    grid-template-rows: 1fr;
     padding: 2rem 9.6rem;
     margin-top: 4rem;
 }
+
+@media (min-width : 768px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+    }
+}
+
 
 .footer h3 {
     text-transform: uppercase;
@@ -356,7 +364,7 @@ fieldset {
 .rrss{
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .rrss img{
